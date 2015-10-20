@@ -1,0 +1,8 @@
+---
+title: "Advanced Linear Modeling in R"
+author: "Dillon Niederhut"
+date: "October 20, 2015"
+output: pdf_document
+---
+
+
