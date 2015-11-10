@@ -3,6 +3,8 @@ title: Advanced Linear Modeling in R
 author: Dillon Niederhut
 ---
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.33599.svg)](http://dx.doi.org/10.5281/zenodo.33599)
+
 This repository contains the materials for D-Lab's workshop on linear modeling in R.
 
 ## Description:
