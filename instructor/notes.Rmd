@@ -5,4 +5,117 @@ date: "October 20, 2015"
 output: pdf_document
 ---
 
+```{r, echo=FALSE}
+# options(warn=-1)
+```
+
+# Introduction
+
+## Motivation
+
+Most of what you'll want to do in inferential statistics is either a linear model, or based on a linear model. At one end of the spectrum, t-tests, ANCOVA, and linear constrasts are highly restricted versions of lienar models that allow easy calculation. At the other end of the spectrum, machine learning algorithms like logistic classifiers, ridge regression, and lasso regression, are all based on the repeated use of calculating full linear models. When used correctly, the linear model is one of the best ways to perform inferential statistics. When used incorrectly, the linear model is highly susceptible to spurious results (that lead to retracted papers!).
+
+## Orientation
+
+The linear model is one which assumes a deterministic world, where present observations are linear combinations of past observations.
+
+# Contrasts
+
+## Contrasts are useful for testing specific hypotheses
+
+With an F-test, you can learn that a variable is causing a difference, but not what that difference is. You can think about contrasts as a way to look at the levels of a variable and ask which level, or groups of levels, are causing the difference. Maybe all of the levels are involved, but each one only a little bit. Contrasts allow you to test this possibility too. 
+
+## The default contrast set for a factor is `contr.treatment`
+
+This is the same thing as 'one-hot encoding'. R treats the first level of the variable as the basis for comparison, and then every subsequent level is represented as a binary 'dummy' variable.
+
+```{r}
+contr.treatment(4)
+```
+
+## If your data don't follow a treatment logic, you can try the sum or Helmert contrasts
+
+```{r}
+contr.helmert(4)
+contr.sum(4)
+```
+
+## If your data have inherent order, try the polynomial contrast set
+
+```{r}
+contr.poly(4)
+```
+
+This produces linear and quadratic contrasts. It's a bit hard to see that though, right? This is because R is making all of the contrasts orthogonal for you. Non-orthogonal contrasts risk explaining the same bit of variance twice, and make you think that you are predicting more than you actually are.
+
+## Assigning contrasts to a factor is easy
+
+The syntax looks like this:
+
+```{r}
+my.factor = factor(c('Dillon', 'Andrew', 'Shinhye', 'Patty'))
+contrasts(my.factor) <- contr.helmert(my.factor)
+contrasts(my.factor)
+```
+
+## But you don't have to let R do it for you
+
+The benefit to using R's built-ins is that they are guaranteed to be correct. But, you are all freethinking rebels (you are at Berkeley after all), so let's look at how to do this by hand.
+
+```{r}
+my.contrast <- matrix(c(
+  -2, -1, 1, 2,
+  0, 0, 1, 1,
+  0, 1, 0, 1
+  ), nrow=4, ncol=3)
+contrasts(my.factor) <- my.contrast
+contrasts(my.factor)
+```
+
+## Your turn!
+
+Let's load in some real data from the data folder. This is a dataset containing information about different primates -  how large they are, how large their brains are, and how much energy they use in a day.
+
+```{r}
+dat <- read.csv('data/primate_energetics.csv')
+```
+
+Look at the variable `clade`. This variable contains five levels:
+
+--------------|------------------
+Strepsirrhini | lemurs and lorises
+Platyrrhini | New World monkeys like capuchins and howlers
+Cercopithecoidea | Old World monkeys like macaques and babboons
+Hominoidea | apes like gibbons and gorillas
+Homo | people like you
+
+How would you construct a contrast for this variable?
+
+# Robusticity
+
+## Some assumptions of the linear model
+
+1. X is measured without error
+2. Variation is homoscedastic
+3. Errors are independent
+
+```{r}
+library(robust)
+```
+
+# Stepwise Models and Uncertainty Reduction
+
+## 
+
+```{r}
+library(MASS)
+```
+
+# Comparing Heterogeneous Models
+
+##
+
+# Generalized Models
+
+## 
 
