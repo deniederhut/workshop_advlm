@@ -1,196 +1,196 @@
-Clade,Genus,Species,Group,N,W,BrainW,RMR,TEE,Source,Method
-Cercopithecoidea,Allenopithecus,nigroviridis,,1,7.9,,,524,Pontzer et al 2014,Doubly Labeled Water
-Cercopithecoidea,Cercocebus,torquatus,,0.3,3.4,,172,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercocebus,torquatus,,0.3,3.4,,172,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercocebus,torquatus,,0.3,3.4,,170,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercocebus,torquatus,,0.3,4.1,,195,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercocebus,torquatus,,0.3,4.1,,196,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercocebus,torquatus,,0.3,4.1,,202,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Cercopithecus,albigena,,,7.9,104,327,428,Leonard & Robertson 1997,Factorial
-Cercopithecoidea,Cercopithecus,guereza,,,7,,265,329,Leonard & Robertson 1997,Factorial
-Cercopithecoidea,Macaca,fascicularis,,16,5.7,,573,884,CAN 2003,Factorial
-Cercopithecoidea,Macaca,fascicularis,,16,5.5,,345,423,CAN 2003,Factorial
-Cercopithecoidea,Macaca,fascicularis,,,5.5,,331,393,Leonard & Robertson 1997,Factorial
-Cercopithecoidea,Macaca,mulatta,,3,9,93,364,367,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,14,6.6,93,287,277,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,6,9,93,364,1008,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,6,9,93,364,853,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,3,8.3,93,342,,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,15,13.7,93,603,,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,8,16.5,93,498,1183,CAN 2003,Factorial
-Cercopithecoidea,Macaca,mulatta,,1,3.7,93,196,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Macaca,mulatta,,1,4.3,93,199,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Macaca,mulatta,,0.5,8.1,93,293,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Macaca,mulatta,,0.5,8.1,93,306,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Macaca,mulatta,,11,14.4,93,,607,Pontzer et al 2014,Doubly Labeled Water
-Cercopithecoidea,Macaca,radiata,,5,4.2,,,251,Pontzer et al 2014,Doubly Labeled Water
-Cercopithecoidea,Papio,anubis,,,29.3,201,956,1281,Leonard & Robertson 1997,Factorial
-Cercopithecoidea,Papio,anubis,,,13,201,520,699,Leonard & Robertson 1997,Factorial
-Cercopithecoidea,Papio,anubis,,8,16.2,201,,832,Pontzer et al 2014,Doubly Labeled Water
-Cercopithecoidea,Papio,cynocephalus,,6,12,,,813,Pontzer et al 2014,Doubly Labeled Water
-Cercopithecoidea,Papio,papio,,0.3,5.3,,281,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,5.8,,288,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,5.8,,291,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,7.6,,332,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,7.6,,344,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,7.6,,312,,Coehlo 1986,Respiratory Quotient
-Cercopithecoidea,Papio,papio,,0.3,7.6,,328,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Gorilla,beringei,,1,97.5,,,2475,Rothman Dierenfeld Hintz Pell 2008,Factorial
-Hominoidea,Gorilla,beringei,,1,162.5,,,3632,"Rothman Dierenfeld Hintz Pell 2008, Smith Jungers 1997",Factorial
-Hominoidea,Gorilla,gorilla,,5,123.7,500,,3160,Pontzer et al 2014,Doubly Labeled Water
-Hominoidea,Hylobates,lar,,0.3,1.9,102,132,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Hylobates,lar,,0.3,1.9,102,117,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Hylobates,lar,,0.3,1.9,102,121,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Hylobates,lar,,,6,102,292,342,Leonard & Robertson 1997,Factorial
-Hominoidea,Pan,paniscus,,4,38,,,1767,Pontzer et al 2014,Doubly Labeled Water
-Hominoidea,Pan,troglodytes,,0.3,14.1,405,451,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,14.1,405,492,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,14.1,405,485,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,16.4,405,522,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,16.4,405,538,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,16.4,405,592,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,16.4,405,536,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,24.5,405,737,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,24.5,405,780,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,0.3,24.5,405,718,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pan,troglodytes,,,39.5,405,1039,1510,Leonard & Robertson 1997,Factorial
-Hominoidea,Pan,troglodytes,,,29.8,405,839,1144,Leonard & Robertson 1997,Factorial
-Hominoidea,Pan,troglodytes,,10,57.1,405,,2386,Pontzer et al 2014,Doubly Labeled Water
-Hominoidea,Pan,,,7,12.9,405,557,893,CAN 2003,Factorial
-Hominoidea,Pan,,,7,15.9,405,477,836,CAN 2003,Factorial
-Hominoidea,Pongo,pygmaeus,,0.3,16.2,370,584,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pongo,pygmaeus,,0.3,16.2,370,570,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pongo,pygmaeus,,0.3,16.2,370,564,,Coehlo 1986,Respiratory Quotient
-Hominoidea,Pongo,pygmaeus,,,83.6,370,1948,2599,Leonard & Robertson 1997,Factorial
-Hominoidea,Pongo,pygmaeus,,,37.8,370,1074,1499,Leonard & Robertson 1997,Factorial
-Hominoidea,Pongo,pygmaeus,,3,74.8,370,,1984,Pontzer et al 2014,Doubly Labeled Water
-Hominoidea,Pongo,,,1,116.6,,1597,2052,Pontzer et al 2010,Doubly Labeled Water
-Hominoidea,Pongo,,,1,55,,1316,1628,Pontzer et al 2010,Doubly Labeled Water
-Hominoidea,Pongo,,,1,53.2,,1065,1570,Pontzer et al 2010,Doubly Labeled Water
-Hominoidea,Symphalangus,syndactylus,,,10.5,102,408,500,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,!kung,,46,1330,1383,2319,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,!kung,,41,1330,1099,1712,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Ache,,59.6,1330,1591,3186,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Ache,,51.8,1330,1394,2085,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Inuit,,60,1330,1486,3670,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Machiguenga,,48.1,1330,1308,3200,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Efe,,42,1330,1217,2650,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Hiwi,,53,1330,1381,2000,Leonard & Robertson 1997,Factorial
-Homo,Homo,sapiens,Evenki,17,53.9,1330,"1,634.8","2,387.6",Leonard Galloway Ivakine 1997,Heart Rate
-Homo,Homo,sapiens,Russian,10,72.4,1330,"1,892.9","2,609.9",Leonard Galloway Ivakine 1997,Heart Rate
-Homo,Homo,sapiens,Evenki,44,51,1330,"1,288.2","2,019.6",Leonard Galloway Ivakine 1997,Heart Rate
-Homo,Homo,sapiens,Russian,22,64.7,1330,"1,302.5","1,974.1",Leonard Galloway Ivakine 1997,Heart Rate
-Homo,Homo,sapiens,Ecuador,11,61.3,1330,"1,601.3","3,809.7",Leonard Katzmarzyk Stephen Ross 1995,Heart Rate
-Homo,Homo,sapiens,Ecuador,5,55.6,1330,"1,529.6","2,416.3",Leonard Katzmarzyk Stephen Ross 1995,Heart Rate
-Homo,Homo,sapiens,Ecuador,11,55.7,1330,"1,252.4","2,459.3",Leonard Katzmarzyk Stephen Ross 1995,Heart Rate
-Homo,Homo,sapiens,Ecuador,5,47.8,1330,1226,"1,993.3",Leonard Katzmarzyk Stephen Ross 1995,Heart Rate
-Homo,Homo,sapiens,Hadza,30,46.6,1330,,2212,Pontzer et al 2014,Doubly Labeled Water
-Homo,Homo,sapiens,,195,72.2,1330,,2482,Pontzer et al 2014,Doubly Labeled Water
-Homo,Homo,sapiens,,13,49,1330,,"2,127.1",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,70,58,1330,,"2,413.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,33,81,1330,,"2,748.5",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,4,63,1330,,2868,Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,12,107,1330,,"3,059.2",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,10,134,1330,,"3,513.3",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,162,1330,,"3,847.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,17,68,1330,,2868,Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,9,58,1330,,1673,Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,60,1330,,"2,270.5",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,13,58,1330,,"2,581.2",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,16,58,1330,,"2,485.6",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,19,64,1330,,"2,581.2",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,14,91,1330,,"2,581.2",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,14,73,1330,,"3,489.4",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,4,78,1330,,"3,250.4",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,9,64,1330,,"2,461.7",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,15,68,1330,,"2,198.8",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,68,1330,,"1,959.8",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,24,72,1330,,"3,369.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,10,55,1330,,"2,366.1",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,57,1330,,"2,652.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,84,1330,,2868,Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,27,62,1330,,"2,222.7",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,20,67,1330,,"1,959.8",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,61,1330,,"4,851.7",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,62,1330,,4063,Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,8,61,1330,,"3,871.8",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,7,50,1330,,"2,270.5",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,14,54,1330,,"1,720.8",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,6,55,1330,,"2,724.6",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,10,49,1330,,"2,413.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,15,54,1330,,"2,079.3",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,40,65,1330,,"2,270.5",Westerterp & Speakman 2008,Doubly Labeled Water
-Homo,Homo,sapiens,,33,73,1330,,"2,891.9",Westerterp & Speakman 2008,Doubly Labeled Water
-Platyrrhini,Alouatta,palliata,,,8.5,52,363,428,Leonard & Robertson 1997,Factorial
-Platyrrhini,Alouatta,palliata,,,6.4,52,293,343,Leonard & Robertson 1997,Factorial
-Platyrrhini,Alouatta,palliata,,5,7.12,52,,602,Pontzer et al 2014,Doubly Labeled Water
-Platyrrhini,Aotus,trivirgatus,,,0.85,17.1,56,60,Leonard & Robertson 1997,Factorial
-Platyrrhini,Ateles,geoffroyi,,,8.41,108,346,415,Leonard & Robertson 1997,Factorial
-Platyrrhini,Callicebus,moloch,,,0.7,19,54,66,Leonard & Robertson 1997,Factorial
-Platyrrhini,Callimico,goeldi,,1,0.537,11,244,274,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callimico,goeldi,,1,0.357,11,183,249,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callimico,goeldi,,1,0.598,11,345,513,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callimico,goeldi,,1,0.558,11,245,327,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callimico,goeldi,,1,0.615,11,336,560,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callimico,goeldi,,1,0.618,11,378,575,Power Tardiff Power Layne 2003,Respiratory Quotient
-Platyrrhini,Callithrix,jacchus,,5,0.45,7.6,,51,Pontzer et al 2014,Doubly Labeled Water
-Platyrrhini,Cebus,albifrons,,,2.4,71,135,172,Leonard & Robertson 1997,Factorial
-Platyrrhini,Cebus,apella,,,2.6,71,143,185,Leonard & Robertson 1997,Factorial
-Platyrrhini,Cebus,sciureus,,11,0.79,24,59,164,CAN 2003,Factorial
-Platyrrhini,Cebus,sciureus,,4,0.95,24,67,167,CAN 2003,Factorial
-Platyrrhini,Marmoset,,,8,0.44,10,37.8,86.8,CAN 2003,Factorial
-Platyrrhini,Marmoset,,,5,0.133,10,15.4,26.5,CAN 2003,Factorial
-Platyrrhini,Marmoset,,,8,0.355,10,32.2,70.8,CAN 2003,Factorial
-Platyrrhini,Saguinas,fuscicollis,,,0.3,10,28,38,Leonard & Robertson 1997,Factorial
-Platyrrhini,Saguinas,imperator,,,0.4,10,35,45,Leonard & Robertson 1997,Factorial
-Platyrrhini,Saimiri,sciureus,,,0.8,24,66,84,Leonard & Robertson 1997,Factorial
-Platyrrhini,Tamarin,,,6,0.43,10,37.3,66,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,10,0.3,10,28.4,42.7,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,39,0.534,10,43.7,124,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,7,0.311,10,29.1,92.6,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,10,0.472,10,39.9,101.3,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,9,0.678,10,52.3,109.8,CAN 2003,Factorial
-Platyrrhini,Tamarin,,,4,0.471,10,39.8,65.1,CAN 2003,Factorial
-Strepsirrhini,Eulemur,sp,,1,1.81,25,109.233782170854,477,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.58,25,98.6485838755926,606,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.76,25,106.962745275212,695,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.67,25,102.833683706998,553,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,2.17,25,125.153454167124,791,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.11,25,75.6990229539101,434,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.69,25,103.755963684022,611,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.58,25,98.6485838755926,582,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,2.17,25,125.153454167124,700,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.97,25,116.398587356573,622,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,2.04,25,119.487002282018,528,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Eulemur,sp,,1,1.81,25,109.233782170854,540,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,11,2.21,23.73,,217,Pontzer et al 2014,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.2,23.73,126.44889852497,859,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.12,23.73,122.984374234978,680,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.24,23.73,128.169312204179,589,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.41,23.73,135.397554995699,440,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.44,23.73,136.659683246479,635,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.5,23.73,139.172377534234,497,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.38,23.73,134.131492727381,736,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,1.77,23.73,107.418229465661,460,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.09,23.73,121.676792993182,592,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,2.65,23.73,145.389299964046,771,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lemur,catta,,1,1.84,23.73,110.588866643851,475,Simmen et al 2010,Doubly Labeled Water
-Strepsirrhini,Lepilemur,ruficaudatus,,9,0.77,7.6,,121,Pontzer et al 2014,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.056,1.78,49.7,94.3,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.055,1.78,49,28.5,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.063,1.78,51.5,103,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.0638,1.78,51.6,207,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.063,1.78,51.5,210,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.0543,1.78,49.3,97.1,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.067,1.78,52.4,111,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.067,1.78,36.6,60,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.06,1.78,34.42,138,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.057,1.78,34.37,104,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.07,1.78,38,129,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.063,1.78,34.9,119,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.098,1.78,47.1,151,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.066,1.78,36.7,112,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.057,1.78,33.6,102,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.072,1.78,38.4,81.5,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.0725,1.78,38.6,139,Schmid Speakman 2000,Doubly Labeled Water
-Strepsirrhini,Microcebus,murinus,,1,0.0485,1.78,30.8,134,Schmid Speakman 2000,Doubly Labeled Water
+"Clade","Genus","Species","Group","N","W","BrainW","RMR","TEE","Source","Method"
+"Cercopithecoidea","Allenopithecus","nigroviridis","",1,7.9,NA,NA,524,"Pontzer et al 2014","Doubly Labeled Water"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,3.4,NA,172,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,3.4,NA,172,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,3.4,NA,170,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,4.1,NA,195,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,4.1,NA,196,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercocebus","torquatus","",0.3,4.1,NA,202,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Cercopithecus","albigena","",NA,7.9,104,327,428,"Leonard & Robertson 1997","Factorial"
+"Cercopithecoidea","Cercopithecus","guereza","",NA,7,NA,265,329,"Leonard & Robertson 1997","Factorial"
+"Cercopithecoidea","Macaca","fascicularis","",16,5.7,NA,573,884,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","fascicularis","",16,5.5,NA,345,423,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","fascicularis","",NA,5.5,NA,331,393,"Leonard & Robertson 1997","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",3,9,93,364,367,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",14,6.6,93,287,277,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",6,9,93,364,1008,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",6,9,93,364,853,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",3,8.3,93,342,NA,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",15,13.7,93,603,NA,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",8,16.5,93,498,1183,"CAN 2003","Factorial"
+"Cercopithecoidea","Macaca","mulatta","",1,3.7,93,196,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Macaca","mulatta","",1,4.3,93,199,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Macaca","mulatta","",0.5,8.1,93,293,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Macaca","mulatta","",0.5,8.1,93,306,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Macaca","mulatta","",11,14.4,93,NA,607,"Pontzer et al 2014","Doubly Labeled Water"
+"Cercopithecoidea","Macaca","radiata","",5,4.2,NA,NA,251,"Pontzer et al 2014","Doubly Labeled Water"
+"Cercopithecoidea","Papio","anubis","",NA,29.3,201,956,1281,"Leonard & Robertson 1997","Factorial"
+"Cercopithecoidea","Papio","anubis","",NA,13,201,520,699,"Leonard & Robertson 1997","Factorial"
+"Cercopithecoidea","Papio","anubis","",8,16.2,201,NA,832,"Pontzer et al 2014","Doubly Labeled Water"
+"Cercopithecoidea","Papio","cynocephalus","",6,12,NA,NA,813,"Pontzer et al 2014","Doubly Labeled Water"
+"Cercopithecoidea","Papio","papio","",0.3,5.3,NA,281,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,5.8,NA,288,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,5.8,NA,291,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,7.6,NA,332,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,7.6,NA,344,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,7.6,NA,312,NA,"Coehlo 1986","Respiratory Quotient"
+"Cercopithecoidea","Papio","papio","",0.3,7.6,NA,328,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Gorilla","beringei","",1,97.5,NA,NA,2475,"Rothman Dierenfeld Hintz Pell 2008","Factorial"
+"Hominoidea","Gorilla","beringei","",1,162.5,NA,NA,3632,"Rothman Dierenfeld Hintz Pell 2008, Smith Jungers 1997","Factorial"
+"Hominoidea","Gorilla","gorilla","",5,123.7,500,NA,3160,"Pontzer et al 2014","Doubly Labeled Water"
+"Hominoidea","Hylobates","lar","",0.3,1.9,102,132,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Hylobates","lar","",0.3,1.9,102,117,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Hylobates","lar","",0.3,1.9,102,121,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Hylobates","lar","",NA,6,102,292,342,"Leonard & Robertson 1997","Factorial"
+"Hominoidea","Pan","paniscus","",4,38,NA,NA,1767,"Pontzer et al 2014","Doubly Labeled Water"
+"Hominoidea","Pan","troglodytes","",0.3,14.1,405,451,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,14.1,405,492,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,14.1,405,485,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,16.4,405,522,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,16.4,405,538,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,16.4,405,592,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,16.4,405,536,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,24.5,405,737,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,24.5,405,780,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",0.3,24.5,405,718,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pan","troglodytes","",NA,39.5,405,1039,1510,"Leonard & Robertson 1997","Factorial"
+"Hominoidea","Pan","troglodytes","",NA,29.8,405,839,1144,"Leonard & Robertson 1997","Factorial"
+"Hominoidea","Pan","troglodytes","",10,57.1,405,NA,2386,"Pontzer et al 2014","Doubly Labeled Water"
+"Hominoidea","Pan","","",7,12.9,405,557,893,"CAN 2003","Factorial"
+"Hominoidea","Pan","","",7,15.9,405,477,836,"CAN 2003","Factorial"
+"Hominoidea","Pongo","pygmaeus","",0.3,16.2,370,584,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pongo","pygmaeus","",0.3,16.2,370,570,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pongo","pygmaeus","",0.3,16.2,370,564,NA,"Coehlo 1986","Respiratory Quotient"
+"Hominoidea","Pongo","pygmaeus","",NA,83.6,370,1948,2599,"Leonard & Robertson 1997","Factorial"
+"Hominoidea","Pongo","pygmaeus","",NA,37.8,370,1074,1499,"Leonard & Robertson 1997","Factorial"
+"Hominoidea","Pongo","pygmaeus","",3,74.8,370,NA,1984,"Pontzer et al 2014","Doubly Labeled Water"
+"Hominoidea","Pongo","","",1,116.6,NA,1597,2052,"Pontzer et al 2010","Doubly Labeled Water"
+"Hominoidea","Pongo","","",1,55,NA,1316,1628,"Pontzer et al 2010","Doubly Labeled Water"
+"Hominoidea","Pongo","","",1,53.2,NA,1065,1570,"Pontzer et al 2010","Doubly Labeled Water"
+"Hominoidea","Symphalangus","syndactylus","",NA,10.5,102,408,500,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","!kung",NA,46,1330,1383,2319,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","!kung",NA,41,1330,1099,1712,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Ache",NA,59.6,1330,1591,3186,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Ache",NA,51.8,1330,1394,2085,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Inuit",NA,60,1330,1486,3670,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Machiguenga",NA,48.1,1330,1308,3200,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Efe",NA,42,1330,1217,2650,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Hiwi",NA,53,1330,1381,2000,"Leonard & Robertson 1997","Factorial"
+"Homo","Homo","sapiens","Evenki",17,53.9,1330,1634.8,2387.6,"Leonard Galloway Ivakine 1997","Heart Rate"
+"Homo","Homo","sapiens","Russian",10,72.4,1330,1892.9,2609.9,"Leonard Galloway Ivakine 1997","Heart Rate"
+"Homo","Homo","sapiens","Evenki",44,51,1330,1288.2,2019.6,"Leonard Galloway Ivakine 1997","Heart Rate"
+"Homo","Homo","sapiens","Russian",22,64.7,1330,1302.5,1974.1,"Leonard Galloway Ivakine 1997","Heart Rate"
+"Homo","Homo","sapiens","Ecuador",11,61.3,1330,1601.3,3809.7,"Leonard Katzmarzyk Stephen Ross 1995","Heart Rate"
+"Homo","Homo","sapiens","Ecuador",5,55.6,1330,1529.6,2416.3,"Leonard Katzmarzyk Stephen Ross 1995","Heart Rate"
+"Homo","Homo","sapiens","Ecuador",11,55.7,1330,1252.4,2459.3,"Leonard Katzmarzyk Stephen Ross 1995","Heart Rate"
+"Homo","Homo","sapiens","Ecuador",5,47.8,1330,1226,1993.3,"Leonard Katzmarzyk Stephen Ross 1995","Heart Rate"
+"Homo","Homo","sapiens","Hadza",30,46.6,1330,NA,2212,"Pontzer et al 2014","Doubly Labeled Water"
+"Homo","Homo","sapiens","",195,72.2,1330,NA,2482,"Pontzer et al 2014","Doubly Labeled Water"
+"Homo","Homo","sapiens","",13,49,1330,NA,2127.1,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",70,58,1330,NA,2413.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",33,81,1330,NA,2748.5,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",4,63,1330,NA,2868,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",12,107,1330,NA,3059.2,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",10,134,1330,NA,3513.3,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,162,1330,NA,3847.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",17,68,1330,NA,2868,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",9,58,1330,NA,1673,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,60,1330,NA,2270.5,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",13,58,1330,NA,2581.2,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",16,58,1330,NA,2485.6,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",19,64,1330,NA,2581.2,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",14,91,1330,NA,2581.2,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",14,73,1330,NA,3489.4,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",4,78,1330,NA,3250.4,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",9,64,1330,NA,2461.7,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",15,68,1330,NA,2198.8,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,68,1330,NA,1959.8,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",24,72,1330,NA,3369.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",10,55,1330,NA,2366.1,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,57,1330,NA,2652.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,84,1330,NA,2868,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",27,62,1330,NA,2222.7,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",20,67,1330,NA,1959.8,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,61,1330,NA,4851.7,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,62,1330,NA,4063,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",8,61,1330,NA,3871.8,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",7,50,1330,NA,2270.5,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",14,54,1330,NA,1720.8,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",6,55,1330,NA,2724.6,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",10,49,1330,NA,2413.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",15,54,1330,NA,2079.3,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",40,65,1330,NA,2270.5,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Homo","Homo","sapiens","",33,73,1330,NA,2891.9,"Westerterp & Speakman 2008","Doubly Labeled Water"
+"Platyrrhini","Alouatta","palliata","",NA,8.5,52,363,428,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Alouatta","palliata","",NA,6.4,52,293,343,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Alouatta","palliata","",5,7.12,52,NA,602,"Pontzer et al 2014","Doubly Labeled Water"
+"Platyrrhini","Aotus","trivirgatus","",NA,0.85,17.1,56,60,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Ateles","geoffroyi","",NA,8.41,108,346,415,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Callicebus","moloch","",NA,0.7,19,54,66,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Callimico","goeldi","",1,0.537,11,244,274,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callimico","goeldi","",1,0.357,11,183,249,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callimico","goeldi","",1,0.598,11,345,513,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callimico","goeldi","",1,0.558,11,245,327,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callimico","goeldi","",1,0.615,11,336,560,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callimico","goeldi","",1,0.618,11,378,575,"Power Tardiff Power Layne 2003","Respiratory Quotient"
+"Platyrrhini","Callithrix","jacchus","",5,0.45,7.6,NA,51,"Pontzer et al 2014","Doubly Labeled Water"
+"Platyrrhini","Cebus","albifrons","",NA,2.4,71,135,172,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Cebus","apella","",NA,2.6,71,143,185,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Cebus","sciureus","",11,0.79,24,59,164,"CAN 2003","Factorial"
+"Platyrrhini","Cebus","sciureus","",4,0.95,24,67,167,"CAN 2003","Factorial"
+"Platyrrhini","Marmoset","","",8,0.44,10,37.8,86.8,"CAN 2003","Factorial"
+"Platyrrhini","Marmoset","","",5,0.133,10,15.4,26.5,"CAN 2003","Factorial"
+"Platyrrhini","Marmoset","","",8,0.355,10,32.2,70.8,"CAN 2003","Factorial"
+"Platyrrhini","Saguinas","fuscicollis","",NA,0.3,10,28,38,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Saguinas","imperator","",NA,0.4,10,35,45,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Saimiri","sciureus","",NA,0.8,24,66,84,"Leonard & Robertson 1997","Factorial"
+"Platyrrhini","Tamarin","","",6,0.43,10,37.3,66,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",10,0.3,10,28.4,42.7,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",39,0.534,10,43.7,124,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",7,0.311,10,29.1,92.6,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",10,0.472,10,39.9,101.3,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",9,0.678,10,52.3,109.8,"CAN 2003","Factorial"
+"Platyrrhini","Tamarin","","",4,0.471,10,39.8,65.1,"CAN 2003","Factorial"
+"Strepsirrhini","Eulemur","sp","",1,1.81,25,109.233782170854,477,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.58,25,98.6485838755926,606,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.76,25,106.962745275212,695,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.67,25,102.833683706998,553,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,2.17,25,125.153454167124,791,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.11,25,75.6990229539101,434,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.69,25,103.755963684022,611,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.58,25,98.6485838755926,582,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,2.17,25,125.153454167124,700,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.97,25,116.398587356573,622,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,2.04,25,119.487002282018,528,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Eulemur","sp","",1,1.81,25,109.233782170854,540,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",11,2.21,23.73,NA,217,"Pontzer et al 2014","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.2,23.73,126.44889852497,859,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.12,23.73,122.984374234978,680,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.24,23.73,128.169312204179,589,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.41,23.73,135.397554995699,440,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.44,23.73,136.659683246479,635,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.5,23.73,139.172377534234,497,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.38,23.73,134.131492727381,736,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,1.77,23.73,107.418229465661,460,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.09,23.73,121.676792993182,592,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,2.65,23.73,145.389299964046,771,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lemur","catta","",1,1.84,23.73,110.588866643851,475,"Simmen et al 2010","Doubly Labeled Water"
+"Strepsirrhini","Lepilemur","ruficaudatus","",9,0.77,7.6,NA,121,"Pontzer et al 2014","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.056,1.78,49.7,94.3,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.055,1.78,49,28.5,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.063,1.78,51.5,103,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.0638,1.78,51.6,207,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.063,1.78,51.5,210,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.0543,1.78,49.3,97.1,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.067,1.78,52.4,111,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.067,1.78,36.6,60,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.06,1.78,34.42,138,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.057,1.78,34.37,104,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.07,1.78,38,129,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.063,1.78,34.9,119,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.098,1.78,47.1,151,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.066,1.78,36.7,112,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.057,1.78,33.6,102,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.072,1.78,38.4,81.5,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.0725,1.78,38.6,139,"Schmid Speakman 2000","Doubly Labeled Water"
+"Strepsirrhini","Microcebus","murinus","",1,0.0485,1.78,30.8,134,"Schmid Speakman 2000","Doubly Labeled Water"
