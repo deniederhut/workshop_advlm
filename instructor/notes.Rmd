@@ -95,13 +95,99 @@ How would you construct a contrast for this variable?
 
 ## Some assumptions of the linear model
 
-1. X is measured without error
-2. Variation is homoscedastic
-3. Errors are independent
+1. Errors are normally distributed
+2. Errors are independent
+3. Variation is homoscedastic
+4. X is measured without error
+
+## Checking normality of errors
+
+Suppose we were interested in predicting body size from brain size. We could construct a model like this:
+
+```{r}
+model.1 <- lm(W ~ BrainW, data=dat)
+```
+
+And then plot the residuals from the model against a normal distribution
+
+```{r}
+qqnorm(model.1$residuals)
+qqline(model.1$residuals)
+```
+
+## Checking independence of errors
+
+This one is pretty easy - you can simply regress your predictors on your residuals (or plot them)
+
+```{r}
+summary(lm(model.1$resid ~ BrainW, data=dat[!(is.na(dat$BrainW)), ]))
+```
+
+```{r}
+library(ggplot2)
+dat.1 <- dat[!(is.na(dat$BrainW)), ]
+dat.1$resid <- model.1$residuals
+ggplot(data=dat.1, aes(x=BrainW, y=resid)) + geom_jitter() + stat_smooth(method='lm')
+```
+
+## Checking homoscedasticity of errors
+
+You can eyeball this by plotting your residuals against your predictor, and looking at rolling estimate of variance
+
+```{r}
+ggplot(data=dat.1, aes(x=BrainW, y=resid)) + geom_jitter() + stat_quantile()
+```
+
+A more formal test, called the Breusch-Pagan test, is found in the lmtest package. Essentially, it is just squaring the residuals and regressing your predictors on it.
+
+```{r}
+library(lmtest)
+bptest(model.1)
+```
+
+## Checking for error in X
+
+There isn't really a way to establish statistically that your predictors have been measured without error. The good news is that linear models are fairly robust to violations of this assumption already. The better news is that if you suspect your predictors have very large margins of error, you can use major axis regressions.
+
+```{r}
+library(lmodel2)
+model.2 <- lmodel2(W ~ BrainW, data=dat, nperm=10)
+model.2
+```
+
+## Linear models are very susceptible to outliers
+
+This isn't really an assumption that we are violating so much as a consequence of parameterizing with means (highly susceptible to outliers) and variance (squared outliers). You can test for outliers with various measures of leverage, including:
+
+1. DFBetas
+2. DFFit
+3. Cook's Distance
+
+These can be calculated with:
+
+```{r}
+influence.measures(model.1)
+```
+
+If you find your model contains high leverage cases, you can either pluck them out by hand (preferably by selecting against something like Cook's Distace), or try running a regression build to be robust to outliers.
 
 ```{r}
 library(robust)
+model.3 <- lmRob(W ~ BrainW, data=dat)
+summary(model.3)
 ```
+
+Exluding the outliers in this case has brought the coefficient of our predictor close to zero. Can you guess why? If you aren't sure, plot it.
+
+## Your turn!
+
+So far we've been predicting body weight from brain weight. Try predicting body weight from brain weight and clade. Your base model should look like this:
+
+```
+  <- lm(W ~ BrainW + Clade, data=dat)
+```
+
+Rerun your regression diagnostics. What do you find?
 
 # Stepwise Models and Uncertainty Reduction
 
