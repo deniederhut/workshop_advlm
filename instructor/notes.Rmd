@@ -1,12 +1,13 @@
 ---
 title: "Advanced Linear Modeling in R"
 author: "Dillon Niederhut"
-date: "October 20, 2015"
+date: "November 11, 2015"
 output: pdf_document
 ---
 
 ```{r, echo=FALSE}
 # options(warn=-1)
+knitr::opts_knit$set(root.dir = '../')
 ```
 
 # Introduction
@@ -54,7 +55,7 @@ The syntax looks like this:
 
 ```{r}
 my.factor = factor(c('Dillon', 'Andrew', 'Shinhye', 'Patty'))
-contrasts(my.factor) <- contr.helmert(my.factor)
+contrasts(my.factor) <- contr.helmert
 contrasts(my.factor)
 ```
 
@@ -191,11 +192,53 @@ Rerun your regression diagnostics. What do you find?
 
 # Stepwise Models and Uncertainty Reduction
 
-## 
+## Fundamental constraints in prediction
+
+We'll start with the bad news. Any kind of predicting method is constrained in how many independent variables you can include in the model (this is why machine learning algorithms always start with a dimensionality reduction method like PCA).
+
+Let's do a little test to show how much of a problem this is. Run the code below a couple of times. How often do you get significant results? Keep in mind that these are randomly generated data, so we already know that there *shouldn't be* any significant predictors.
+
+```{r}
+dat.toy <- data.frame(value=runif(4), var1=runif(4), var2=runif(4))
+summary(lm(value ~ var1 + var2, data=dat.toy))
+```
+
+R won't let us run `lm` with four variables, but if it did, we would be able to 100% accurately predict four random number from four sets of other random numbers. Overfitting, combined with p hacking and the file drawer problem, are responsible for the giant world of false findings and irreproducable science that you keep hearing about. Generally speaking, it is bad science to throw predictors haphazardly into a model and see what comes out; however, there are times when this approach is either required or useful in its own right.
+
+## Weeding out predictors the smart way
+
+It may happen to you in your life that you have no theory, hypothesis, or intuitions about how your predictors could be related to your outcome variable. In this case, you can weed out predictors using what is called a stepwise regression.
 
 ```{r}
 library(MASS)
+dat.omit <- na.omit(dat)
+model.base <- lm(W ~ ., data=dat.omit)
+model.4 <- stepAIC(model.base)
+summary(model.4)
 ```
+
+Doing it this way isn't particularly helpful - genera tend to be around the same body size, so really we are just recapitulating taxonomies here.
+
+## Specifying forward stepwise models
+
+Part of the problem is that backwards models tend to keep predictors that aren't particularly useful. The other part of the problem is that we threw every variable we had into the model.
+
+```{r}
+model.base <- lm(W ~ 1, data=dat.omit)
+model.5 <- stepAIC(model.base, scope=list(upper = ~ W + BrainW + RMR + TEE), direction='forward')
+summary(model.5)
+```
+
+## Comparing homogeneous models
+
+Stepwise regression is evalued by maximizing the likelihood that a model will reduce your uncertainty about the dependent variable. This can't be assessed in an exact sense, but models that differ only the inclusion of a parameter can be compared my relative likelihood. This can be calculated with:
+
+```{r}
+p <- exp((model.5$anova$AIC[3] - model.5$anova$AIC[2]) / 2)
+p
+```
+
+This is telling us that the simpler model is `r p` times as likely to minimize information loss as the more complex model. Or, to put it another way, the probability that the complex model is better is `r 1-p`.
 
 # Comparing Heterogeneous Models
 
