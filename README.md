@@ -21,10 +21,14 @@ Linear modeling is the one of the most flexible methods available in inferential
 
 1. R version >= 3.2.0 installed
 2. The following packages installed: 
-    - `MASS`
-    - `robust`
+    - `ggplot2`
     - `lmodel2`
-3. Basic familiarity with `lm` is assumed
+    - `lmtest`
+    - `MASS`
+    - `reshape2`
+    - `robust`
+
+3. Basic familiarity with plotting and the `lm` is assumed
 
 ## Contents:
 
