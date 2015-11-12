@@ -231,7 +231,7 @@ summary(model.5)
 
 ## Comparing homogeneous models
 
-Stepwise regression is evalued by maximizing the likelihood that a model will reduce your uncertainty about the dependent variable. This can't be assessed in an exact sense, but models that differ only the inclusion of a parameter can be compared my relative likelihood. This can be calculated with:
+Stepwise regression is evalued by maximizing the likelihood that a model will reduce your uncertainty about the dependent variable. This can't be assessed in an exact sense, but models that differ only the inclusion of a parameter can be compared my relative likelihood (this is sometimes called comparing 'nested models'). This can be calculated with:
 
 ```{r}
 p <- exp((model.5$anova$AIC[3] - model.5$anova$AIC[2]) / 2)
