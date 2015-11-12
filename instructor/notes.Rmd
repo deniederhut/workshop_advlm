@@ -6,7 +6,7 @@ output: pdf_document
 ---
 
 ```{r, echo=FALSE}
-# options(warn=-1)
+options(warn=-1)
 knitr::opts_knit$set(root.dir = '../')
 ```
 
@@ -238,7 +238,7 @@ p <- exp((model.5$anova$AIC[3] - model.5$anova$AIC[2]) / 2)
 p
 ```
 
-This is telling us that the simpler model is `r p` times as likely to minimize information loss as the more complex model. Or, to put it another way, the probability that the complex model is better is `r 1-p`.
+To put it another way, the probability that the complex model is better is `r 1-p`.
 
 ## Your turn!
 
@@ -270,7 +270,7 @@ ggplot(data=errors, aes(x=variable, y=value)) + geom_boxplot(outlier.colour='red
 
 ## RMSE
 
-The root mean square error is the preferred mean-based way to quantify model fit. The math looks  like `sqrt(mean(error**2))`
+The root mean square error is the preferred mean-based way to quantify model fit. The math looks  like `sqrt(mean(error^2))`
 
 ```{r}
 sqrt(mean(model.4$residuals**2))
@@ -320,7 +320,7 @@ dat.toy$resid <- model.toy$residuals
 qplot(data=dat.toy, x=x, y=resid)
 ```
 
-The actual prediction equation here should be `y = 0.5 + x`, but because the errors around y are non-normal, linear regression produces an incorrect solution something like `r model.toy$coef[[1]] + model.toy$coef[[2]]`x. This *usually* cannot be corrected by nonlinear transforms.
+The actual prediction equation here should be `y = 0.5 + x`, but because the errors around y are non-normal, linear regression produces an incorrect solution something like `r model.toy$coef[[1]]` + `r model.toy$coef[[2]]` x. This *usually* cannot be corrected by nonlinear transforms.
 
 ## The generalized linear model
 
