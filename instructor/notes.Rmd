@@ -240,9 +240,57 @@ p
 
 This is telling us that the simpler model is `r p` times as likely to minimize information loss as the more complex model. Or, to put it another way, the probability that the complex model is better is `r 1-p`.
 
+## Your turn!
+
+So far, we've been predicting body weight from brain weight. What happens if you run the model the other way around? E.g., you try:
+
+```
+BrainW ~ .
+```
+
 # Comparing Heterogeneous Models
 
-##
+## Visualizing prediction error
+
+One easy way to visualize this is to use make a dataframe out of your error terms and plot it.
+
+```{r}
+library(reshape2)
+errors <- data.frame(model.4 = model.4$residuals, model.5 = model.5$residuals)
+errors <- melt(errors)
+ggplot(data=errors, aes(x=variable, y=value)) + geom_boxplot(outlier.colour='red')
+```
+
+## Quantifying prediction error
+
+* The good news: the math used to quantify prediction error is simple
+* The bad news: R will not do it for you
+
+> Cautionary note - none of these methods take model complexity into account
+
+## RMSE
+
+The root mean square error is the preferred mean-based way to quantify model fit. The math looks  like `sqrt(mean(error**2))`
+
+```{r}
+sqrt(mean(model.4$residuals**2))
+sqrt(mean(model.5$residuals**2))
+```
+
+## MdAE
+
+The median absolute error is the preferred median-based way to quantify model fit. It is particularly useful when a model's fit is unduly influenced by one or a few outliers. The math looks like `median(abs(error))`
+
+```{r}
+median(abs(model.4$residuals))
+median(abs(model.5$residuals))
+```
+
+> side note - this is sometimes abbreviated `MAD` for 'median absolute deviation', but it could also mean 'mean absolute deviation'
+
+## Your turn!
+
+You're going to compare two heterogeneous models for explaining body weight. Try using `TEE ~ W` and `TEE ~ RMR`. Which is a better fit?
 
 # Generalized Models
 
