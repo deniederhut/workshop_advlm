@@ -294,5 +294,71 @@ You're going to compare two heterogeneous models for explaining body weight. Try
 
 # Generalized Models
 
-## 
+## LM assumes linear relationships
 
+The linear model we have been using is assuming a couple of things that we haven't talked much about. One of these is that the relationship between the predictors and the outcome is linear (as opposed to quadratic, for example). This assumption can often be met by nonlinear transforms of the data. For example, we've been using data that are usually analyzed after they've been log transformed.
+
+```{r}
+qplot(data=dat, x=BrainW, y=W)
+qplot(data=dat, x=BrainW, y=W, log='xy')
+```
+
+## LM also assumes normal variance
+
+This one is a little trickier. To show why this is a problem, let's make another toy dataset.
+
+```{r}
+dat.toy <- data.frame(x=1:10, y=1:10+rbinom(10, 1, .5))
+qplot(data=dat.toy, x=x, y=y)
+```
+
+If we predict `y` from `x` and plot the residuals against, x, we get:
+
+```{r}
+model.toy <- lm(y ~ x, data=dat.toy)
+dat.toy$resid <- model.toy$residuals
+qplot(data=dat.toy, x=x, y=resid)
+```
+
+The actual prediction equation here should be `y = 0.5 + x`, but because the errors around y are non-normal, linear regression produces an incorrect solution something like `r model.toy$coef[[1]] + model.toy$coef[[2]]`x. This *usually* cannot be corrected by nonlinear transforms.
+
+## The generalized linear model
+
+The good news is that `lm` is a subset of of `glm` or generalized linear models, where the link is linear and the variance is normal. `lm` in R is really just a convenience function that (behind the scenes) is running: 
+
+```{r}
+summary(glm(y~x, data=dat.toy, family=gaussian))
+```
+
+You will typically only encounter two types of non-linear, linear models
+
+## The binomial family
+
+The binomial distribution models binary variables. Typically, this is presented as modeling coin flips, with a certain probability. 
+
+```{r}
+dat.toy <- data.frame(x=1:10, y=rbinom(10,1,0.5))
+summary(glm(y~x, data=dat.toy, family=binomial))
+```
+
+## The poisson family
+
+The poisson distribution models count variables. Typically, this is presented as something like 'how many people enter a store per minute'.
+
+```{r}
+data.toy <- data.frame(x=1:10, y=rpois(10,1))
+summary(glm(y~x, data=dat.toy, family=poisson))
+```
+
+## Your turn!
+
+The binomial family glm is more commonly known as the logistic regression. In logistic regression, each 0 and 1 outcome is modeled as the odds ratio that a row will be equal to 0 or 1 based on the predictor variables. This is the engine behind most classification algorithms. 
+
+Let's go back to the `Clade` variable, and make a new binary variable based on it.
+
+```{r}
+dat$bin <- 0
+dat$bin[dat$Clade == 'Homo'] <- 1
+```
+
+Using logistic regression and the other variables in the dataset, find the best way to predict whether a case is from a human or not.
